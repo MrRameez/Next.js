@@ -20,6 +20,12 @@ export default function Home() {
         >
           Learn About Us
         </Link>
+        <Link
+          className="bg-gray-800 text-white border border-gray-800 rounded-full px-8 py-3 text-lg font-semibold transition-all duration-300 ease-in-out hover:bg-gray-700 hover:border-gray-700"
+          href={"/post"}
+        >
+          All Post
+        </Link>
       </div>
     </div>
   );
